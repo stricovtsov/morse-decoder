@@ -35,7 +35,8 @@ const MORSE_TABLE = {
     '---..':  '8',
     '----.':  '9',
     '-----':  '0',
-};
+};;
+
 
    function decode(expr) {
       const arrMorse = Object.keys(MORSE_TABLE);
@@ -91,6 +92,6 @@ const MORSE_TABLE = {
       return arrExpr.join('')
   }
 
-module.exports = {
-    decode
+module.exports  = {
+    decode  
 }
